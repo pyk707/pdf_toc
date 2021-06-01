@@ -28,3 +28,4 @@ if menu == "y":
             findString = re.sub(r'__[0-9a-zA-Z가-힣. ㄱ-ㅎ!#$%&’()*+,./:;<=>?@_`{|}~\-\[\]]*\n', "", line)
             f4 = open("./lv1_nopagenumber_" + title + ".txt", "a")
             f4.write(findString)
+            
